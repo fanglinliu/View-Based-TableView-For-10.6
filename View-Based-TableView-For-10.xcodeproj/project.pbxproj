@@ -11,8 +11,13 @@
 		0354EE621536D6C90042AB18 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0354EE601536D6C90042AB18 /* InfoPlist.strings */; };
 		0354EE641536D6C90042AB18 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0354EE631536D6C90042AB18 /* main.m */; };
 		0354EE681536D6C90042AB18 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 0354EE661536D6C90042AB18 /* Credits.rtf */; };
-		0354EE6B1536D6C90042AB18 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0354EE6A1536D6C90042AB18 /* AppDelegate.m */; };
-		0354EE6E1536D6C90042AB18 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0354EE6C1536D6C90042AB18 /* MainMenu.xib */; };
+		0354EE801536D7AF0042AB18 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0354EE751536D7AF0042AB18 /* AppDelegate.m */; };
+		0354EE811536D7AF0042AB18 /* EditingWhiteBkColorTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 0354EE781536D7AF0042AB18 /* EditingWhiteBkColorTextField.m */; };
+		0354EE821536D7AF0042AB18 /* FileSystemBrowserCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0354EE7A1536D7AF0042AB18 /* FileSystemBrowserCell.m */; };
+		0354EE831536D7AF0042AB18 /* SelectionCellSubView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0354EE7C1536D7AF0042AB18 /* SelectionCellSubView.m */; };
+		0354EE841536D7AF0042AB18 /* SelectionCellSubview.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0354EE7D1536D7AF0042AB18 /* SelectionCellSubview.xib */; };
+		0354EE851536D7AF0042AB18 /* SelectionCellSubviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0354EE7F1536D7AF0042AB18 /* SelectionCellSubviewController.m */; };
+		0354EE881536D7BC0042AB18 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0354EE861536D7BC0042AB18 /* MainMenu.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,14 +26,23 @@
 		0354EE5A1536D6C90042AB18 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		0354EE5B1536D6C90042AB18 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		0354EE5C1536D6C90042AB18 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		0354EE5F1536D6C90042AB18 /* View-Based-TableView-For-10-Info.plist */ = {isa = PBXFileReference; path = "View-Based-TableView-For-10-Info.plist"; sourceTree = "<group>"; };
+		0354EE5F1536D6C90042AB18 /* View-Based-TableView-For-10-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "View-Based-TableView-For-10-Info.plist"; sourceTree = "<group>"; };
 		0354EE611536D6C90042AB18 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0354EE631536D6C90042AB18 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		0354EE651536D6C90042AB18 /* View-Based-TableView-For-10-Prefix.pch */ = {isa = PBXFileReference; path = "View-Based-TableView-For-10-Prefix.pch"; sourceTree = "<group>"; };
+		0354EE651536D6C90042AB18 /* View-Based-TableView-For-10-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "View-Based-TableView-For-10-Prefix.pch"; sourceTree = "<group>"; };
 		0354EE671536D6C90042AB18 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		0354EE691536D6C90042AB18 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
-		0354EE6A1536D6C90042AB18 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0354EE6D1536D6C90042AB18 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		0354EE741536D7AF0042AB18 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0354EE751536D7AF0042AB18 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0354EE771536D7AF0042AB18 /* EditingWhiteBkColorTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditingWhiteBkColorTextField.h; sourceTree = "<group>"; };
+		0354EE781536D7AF0042AB18 /* EditingWhiteBkColorTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditingWhiteBkColorTextField.m; sourceTree = "<group>"; };
+		0354EE791536D7AF0042AB18 /* FileSystemBrowserCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileSystemBrowserCell.h; sourceTree = "<group>"; };
+		0354EE7A1536D7AF0042AB18 /* FileSystemBrowserCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileSystemBrowserCell.m; sourceTree = "<group>"; };
+		0354EE7B1536D7AF0042AB18 /* SelectionCellSubView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectionCellSubView.h; sourceTree = "<group>"; };
+		0354EE7C1536D7AF0042AB18 /* SelectionCellSubView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectionCellSubView.m; sourceTree = "<group>"; };
+		0354EE7D1536D7AF0042AB18 /* SelectionCellSubview.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SelectionCellSubview.xib; sourceTree = "<group>"; };
+		0354EE7E1536D7AF0042AB18 /* SelectionCellSubviewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectionCellSubviewController.h; sourceTree = "<group>"; };
+		0354EE7F1536D7AF0042AB18 /* SelectionCellSubviewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectionCellSubviewController.m; sourceTree = "<group>"; };
+		0354EE871536D7BC0042AB18 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,9 +96,9 @@
 		0354EE5D1536D6C90042AB18 /* View-Based-TableView-For-10 */ = {
 			isa = PBXGroup;
 			children = (
-				0354EE691536D6C90042AB18 /* AppDelegate.h */,
-				0354EE6A1536D6C90042AB18 /* AppDelegate.m */,
-				0354EE6C1536D6C90042AB18 /* MainMenu.xib */,
+				0354EE741536D7AF0042AB18 /* AppDelegate.h */,
+				0354EE751536D7AF0042AB18 /* AppDelegate.m */,
+				0354EE761536D7AF0042AB18 /* SelectionCellSubview */,
 				0354EE5E1536D6C90042AB18 /* Supporting Files */,
 			);
 			path = "View-Based-TableView-For-10";
@@ -96,10 +110,27 @@
 				0354EE5F1536D6C90042AB18 /* View-Based-TableView-For-10-Info.plist */,
 				0354EE601536D6C90042AB18 /* InfoPlist.strings */,
 				0354EE631536D6C90042AB18 /* main.m */,
+				0354EE861536D7BC0042AB18 /* MainMenu.xib */,
 				0354EE651536D6C90042AB18 /* View-Based-TableView-For-10-Prefix.pch */,
 				0354EE661536D6C90042AB18 /* Credits.rtf */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0354EE761536D7AF0042AB18 /* SelectionCellSubview */ = {
+			isa = PBXGroup;
+			children = (
+				0354EE771536D7AF0042AB18 /* EditingWhiteBkColorTextField.h */,
+				0354EE781536D7AF0042AB18 /* EditingWhiteBkColorTextField.m */,
+				0354EE791536D7AF0042AB18 /* FileSystemBrowserCell.h */,
+				0354EE7A1536D7AF0042AB18 /* FileSystemBrowserCell.m */,
+				0354EE7B1536D7AF0042AB18 /* SelectionCellSubView.h */,
+				0354EE7C1536D7AF0042AB18 /* SelectionCellSubView.m */,
+				0354EE7D1536D7AF0042AB18 /* SelectionCellSubview.xib */,
+				0354EE7E1536D7AF0042AB18 /* SelectionCellSubviewController.h */,
+				0354EE7F1536D7AF0042AB18 /* SelectionCellSubviewController.m */,
+			);
+			path = SelectionCellSubview;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,7 +185,8 @@
 			files = (
 				0354EE621536D6C90042AB18 /* InfoPlist.strings in Resources */,
 				0354EE681536D6C90042AB18 /* Credits.rtf in Resources */,
-				0354EE6E1536D6C90042AB18 /* MainMenu.xib in Resources */,
+				0354EE841536D7AF0042AB18 /* SelectionCellSubview.xib in Resources */,
+				0354EE881536D7BC0042AB18 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,7 +198,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				0354EE641536D6C90042AB18 /* main.m in Sources */,
-				0354EE6B1536D6C90042AB18 /* AppDelegate.m in Sources */,
+				0354EE801536D7AF0042AB18 /* AppDelegate.m in Sources */,
+				0354EE811536D7AF0042AB18 /* EditingWhiteBkColorTextField.m in Sources */,
+				0354EE821536D7AF0042AB18 /* FileSystemBrowserCell.m in Sources */,
+				0354EE831536D7AF0042AB18 /* SelectionCellSubView.m in Sources */,
+				0354EE851536D7AF0042AB18 /* SelectionCellSubviewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,10 +225,10 @@
 			name = Credits.rtf;
 			sourceTree = "<group>";
 		};
-		0354EE6C1536D6C90042AB18 /* MainMenu.xib */ = {
+		0354EE861536D7BC0042AB18 /* MainMenu.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				0354EE6D1536D6C90042AB18 /* en */,
+				0354EE871536D7BC0042AB18 /* en */,
 			);
 			name = MainMenu.xib;
 			sourceTree = "<group>";
@@ -220,9 +256,9 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = macosx;
+				SDKROOT = macosx10.6;
 			};
 			name = Debug;
 		};
@@ -240,8 +276,8 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
-				SDKROOT = macosx;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx10.6;
 			};
 			name = Release;
 		};

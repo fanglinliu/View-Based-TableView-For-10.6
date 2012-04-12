@@ -1,0 +1,293 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0354EE581536D6C90042AB18 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0354EE571536D6C90042AB18 /* Cocoa.framework */; };
+		0354EE621536D6C90042AB18 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0354EE601536D6C90042AB18 /* InfoPlist.strings */; };
+		0354EE641536D6C90042AB18 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0354EE631536D6C90042AB18 /* main.m */; };
+		0354EE681536D6C90042AB18 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 0354EE661536D6C90042AB18 /* Credits.rtf */; };
+		0354EE6B1536D6C90042AB18 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0354EE6A1536D6C90042AB18 /* AppDelegate.m */; };
+		0354EE6E1536D6C90042AB18 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0354EE6C1536D6C90042AB18 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0354EE531536D6C90042AB18 /* View-Based-TableView-For-10.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "View-Based-TableView-For-10.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0354EE571536D6C90042AB18 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		0354EE5A1536D6C90042AB18 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		0354EE5B1536D6C90042AB18 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		0354EE5C1536D6C90042AB18 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0354EE5F1536D6C90042AB18 /* View-Based-TableView-For-10-Info.plist */ = {isa = PBXFileReference; path = "View-Based-TableView-For-10-Info.plist"; sourceTree = "<group>"; };
+		0354EE611536D6C90042AB18 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0354EE631536D6C90042AB18 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0354EE651536D6C90042AB18 /* View-Based-TableView-For-10-Prefix.pch */ = {isa = PBXFileReference; path = "View-Based-TableView-For-10-Prefix.pch"; sourceTree = "<group>"; };
+		0354EE671536D6C90042AB18 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		0354EE691536D6C90042AB18 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		0354EE6A1536D6C90042AB18 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0354EE6D1536D6C90042AB18 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0354EE501536D6C90042AB18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0354EE581536D6C90042AB18 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0354EE481536D6C80042AB18 = {
+			isa = PBXGroup;
+			children = (
+				0354EE5D1536D6C90042AB18 /* View-Based-TableView-For-10 */,
+				0354EE561536D6C90042AB18 /* Frameworks */,
+				0354EE541536D6C90042AB18 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0354EE541536D6C90042AB18 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0354EE531536D6C90042AB18 /* View-Based-TableView-For-10.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0354EE561536D6C90042AB18 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0354EE571536D6C90042AB18 /* Cocoa.framework */,
+				0354EE591536D6C90042AB18 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0354EE591536D6C90042AB18 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0354EE5A1536D6C90042AB18 /* AppKit.framework */,
+				0354EE5B1536D6C90042AB18 /* CoreData.framework */,
+				0354EE5C1536D6C90042AB18 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		0354EE5D1536D6C90042AB18 /* View-Based-TableView-For-10 */ = {
+			isa = PBXGroup;
+			children = (
+				0354EE691536D6C90042AB18 /* AppDelegate.h */,
+				0354EE6A1536D6C90042AB18 /* AppDelegate.m */,
+				0354EE6C1536D6C90042AB18 /* MainMenu.xib */,
+				0354EE5E1536D6C90042AB18 /* Supporting Files */,
+			);
+			path = "View-Based-TableView-For-10";
+			sourceTree = "<group>";
+		};
+		0354EE5E1536D6C90042AB18 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0354EE5F1536D6C90042AB18 /* View-Based-TableView-For-10-Info.plist */,
+				0354EE601536D6C90042AB18 /* InfoPlist.strings */,
+				0354EE631536D6C90042AB18 /* main.m */,
+				0354EE651536D6C90042AB18 /* View-Based-TableView-For-10-Prefix.pch */,
+				0354EE661536D6C90042AB18 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0354EE521536D6C90042AB18 /* View-Based-TableView-For-10 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0354EE711536D6C90042AB18 /* Build configuration list for PBXNativeTarget "View-Based-TableView-For-10" */;
+			buildPhases = (
+				0354EE4F1536D6C90042AB18 /* Sources */,
+				0354EE501536D6C90042AB18 /* Frameworks */,
+				0354EE511536D6C90042AB18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "View-Based-TableView-For-10";
+			productName = "View-Based-TableView-For-10";
+			productReference = 0354EE531536D6C90042AB18 /* View-Based-TableView-For-10.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0354EE4A1536D6C80042AB18 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 0354EE4D1536D6C80042AB18 /* Build configuration list for PBXProject "View-Based-TableView-For-10" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0354EE481536D6C80042AB18;
+			productRefGroup = 0354EE541536D6C90042AB18 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0354EE521536D6C90042AB18 /* View-Based-TableView-For-10 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0354EE511536D6C90042AB18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0354EE621536D6C90042AB18 /* InfoPlist.strings in Resources */,
+				0354EE681536D6C90042AB18 /* Credits.rtf in Resources */,
+				0354EE6E1536D6C90042AB18 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0354EE4F1536D6C90042AB18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0354EE641536D6C90042AB18 /* main.m in Sources */,
+				0354EE6B1536D6C90042AB18 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0354EE601536D6C90042AB18 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0354EE611536D6C90042AB18 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0354EE661536D6C90042AB18 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0354EE671536D6C90042AB18 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		0354EE6C1536D6C90042AB18 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0354EE6D1536D6C90042AB18 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0354EE6F1536D6C90042AB18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		0354EE701536D6C90042AB18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0354EE721536D6C90042AB18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "View-Based-TableView-For-10/View-Based-TableView-For-10-Prefix.pch";
+				INFOPLIST_FILE = "View-Based-TableView-For-10/View-Based-TableView-For-10-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0354EE731536D6C90042AB18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "View-Based-TableView-For-10/View-Based-TableView-For-10-Prefix.pch";
+				INFOPLIST_FILE = "View-Based-TableView-For-10/View-Based-TableView-For-10-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0354EE4D1536D6C80042AB18 /* Build configuration list for PBXProject "View-Based-TableView-For-10" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0354EE6F1536D6C90042AB18 /* Debug */,
+				0354EE701536D6C90042AB18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0354EE711536D6C90042AB18 /* Build configuration list for PBXNativeTarget "View-Based-TableView-For-10" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0354EE721536D6C90042AB18 /* Debug */,
+				0354EE731536D6C90042AB18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0354EE4A1536D6C80042AB18 /* Project object */;
+}
